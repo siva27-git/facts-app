@@ -2,6 +2,15 @@
   text-align: center;
 }
 
+.App-head {
+  text-align: center;
+  background-color: #61dafb;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: large;
+  min-height: 7vh;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -32,6 +41,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
